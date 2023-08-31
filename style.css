@@ -1,0 +1,144 @@
+html {
+  box-sizing: border-box;
+}
+
+html body {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: rgba(20, 21, 25, 255);
+  font-family: 'Overpass', sans-serif;
+}
+
+#container {
+  background-color: #1d242e;
+  height: 420px;
+  width: 410px;
+  padding: 2em;
+  border-radius: 8%;
+}
+
+#iconStar {
+  background-color: #292e34;
+  padding: 1em;
+  border-radius: 50%;
+}
+
+h1 {
+  color: #fdffff;
+  margin-bottom: 0;
+  margin-top: 1em;
+  font-size: 1.8em;
+}
+
+#container p {
+  font-size: 0.94em;
+  color: #9198a2;
+  line-height: 1.6;
+  margin-bottom: 0;
+  margin-top: 0.8em;
+}
+
+#buttonRating {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em 0;
+}
+
+
+#buttonRating button {
+  padding: 1.2em;
+  font-size: 1em;
+  color: hsl(216, 12%, 54%);
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 50%;
+  border: none;
+  font-family: 'Overpass', sans-serif;
+}
+
+#buttonRating button:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+  cursor: pointer;
+}
+
+#submit {
+  font-size: 0.8em;
+  border-radius: 20px;
+  border: none;
+  padding: 1em 2em;
+  width: 100%;
+  margin: 1em auto;
+  display: block;
+  color: #fffad7;
+  background-color: hsl(25, 97%, 53%);
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+#submit:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#container .clickedButton {
+  background-color: #7d8798;
+  color: #fff;
+}
+
+/* CONTAINER 2 */
+
+#container2 {
+  background-color: #1d242e;
+  height: 420px;
+  width: 410px;
+  padding: 2em 2.2em;
+  border-radius: 8%;
+  text-align: center;
+}
+
+#container2 img {
+  margin: 0.8em;
+}
+
+#container2 div {
+  display: flex;
+  justify-content: center;
+}
+
+#container2 h3 {
+  font-size: 1em;
+  font-weight: 400;
+  color: #b1632c;
+  background-color: #272e39;
+  padding: 0.4em;
+  border-radius: 20px;
+  width: 60%;
+  margin: 1em 0;
+}
+
+#container2 h2 {
+  color: #fdffff;
+  font-size: 1.8em;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+
+#container2 p {
+  font-size: 0.94em;
+  color: #9198a2;
+  line-height: 1.6;
+}
